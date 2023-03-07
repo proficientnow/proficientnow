@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Gilroy;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: rgba(224, 232, 243, 0.7 ) !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+.hero{
+  background-color: rgba(156, 167, 209, 0.3) !important;
+  backdrop-filter: blur(15px) !important;
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    background: white;
+  }
+}
+
+
