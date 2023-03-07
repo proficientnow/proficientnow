@@ -1,0 +1,29 @@
+[{
+    "content": [{
+        "title": "Quick Access",
+        "Links": [{
+                "title": "Home",
+                "href": "/"
+            },
+            {
+                "title": "Find a Job",
+                "href": "/jobs"
+            },
+
+            {
+                "title": "Employers",
+                "href": "/employers"
+            },
+
+            {
+                "title": "About Us",
+                "href": "/aboutus"
+            },
+            {
+                "title": "Contact Us",
+                "href": "/contactUs"
+            }
+            ]
+        }
+    ]
+}]

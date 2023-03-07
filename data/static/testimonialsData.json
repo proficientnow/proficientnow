@@ -1,0 +1,115 @@
+[
+    {
+      "name": "Anna",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Home Cleaning",
+      "description": "“Pema was excellent. 15 minutes early. friendly and completed a luxury hotel standard clean. Will book again”"
+    },
+    {
+      "name": "Paula",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Furniture Assemble",
+      "description": "“Michael was very nice and provided a very efficient service. Highly recommend”"
+    },
+    {
+      "name": "Isma",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Home Cleaning",
+      "description": "“Edmee was great. She was punctual and did a very thorough job. She was also lovely. I was happy with the cleaning.”"
+    },
+    {
+      "name": "Lars",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Electrician",
+      "description": "“Far quick and experienced then I thought as per age. No fancy stuff just chipped in and know each detail whats doing. Have just Blind faith on him and he dont let you down.”"
+    },
+    {
+      "name": "Maria",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Home Cleaning",
+      "description": "“On time and accurama. Clean work. Rahul is cooperative and polite. Will be happy to have them again for next service.”"
+    },
+    {
+      "name": "Marta",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Home Cleaning",
+      "description": "“Albert was very polite and willing to work. Very pleasant.”"
+    },
+    {
+      "name": "Gemma",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Home Cleaning",
+      "description": "“Very professional and thorough! A great clean, thank you Stacey!”"
+    },
+    {
+      "name": "Sara",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Electrician",
+      "description": "“Very helpful”"
+    },
+    {
+      "name": "Peter",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Home Cleaning",
+      "description": "“Carla did a fantastic job cleaning our place and was very easy to communicate with”"
+    },
+    {
+      "name": "Natascha",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "End of Lease Cleaning",
+      "description": "“Rufa is as amazing as her reviews. Very thorough job, takes the time to get into the details. Will be booking again.”"
+    },
+    {
+      "name": "Jamie",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Painting",
+      "description": "Fabiene did a fantastic job, the place was spotless."
+    },
+    {
+      "name": "Sanes",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Home Cleaning",
+      "description": "“Thanks for a great job today Josiah!”"
+    },
+    {
+      "name": "Lukas",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Home Cleaning",
+      "description": "“Hotel style cleaning. Beyond perfection. Will definitely hope he accepts future bookings.”"
+    },
+    {
+      "name": "Sanches",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Home Cleaning",
+      "description": "“Aurora is amazing! We were very happy with the service. She was very considerate and thorough with the amount of time scheduled!”"
+    },
+    {
+      "name": "Andrew",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "End of Lease Cleaning",
+      "description": "“Excellent clean, thorough and friendly.”"
+    },
+    {
+      "name": "Lukas",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Painting",
+      "description": "“Great Work thank you Stuart!”"
+    }
+  ]
+  

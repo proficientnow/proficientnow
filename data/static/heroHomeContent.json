@@ -1,0 +1,52 @@
+[{
+    "hero": {
+        "title": "Find more than 1000+ job vacancies every day",
+        "description": "Finding you the right job is our top priority, and we don't stop there. We are with you every step of the way to make sure you're happy and satisfied with your work. Let's find a job that feels good and is a good fit for you. ",
+        "someOfOurClients": "Some of our clients"
+    },
+
+    "whyProfecient": {
+        "title": "There are many talent solution firms. Why choose ProficientNow?",
+
+        "description": "We proudly  make a difference in many people’s working lives every year. Our culture is entrepreneurial and comprehensive, and we keenly focus to unite our passion to shape the world of work. We work with over 250+ clients across the States, enabling their success. Our strengths are our passion, integrity, and openness to new ideas, experiences, and perspectives, allowing us to build innovative and ingenious solutions to complex problems. And going forward we are honored to serve the quality of work with all the joy and happiness. From AI to the gig economy, biotechnology to information technology, the world of work is changing rapidly. But for us, it's not about following change, it's about predicting it and being a positive influence in shaping the future of work. Perhaps one of the best reasons to work with ProficientNow, is the way we recognize the right talent for an organization and the wide range of opportunities that we provide to the candidates. ProficientNow is also a place of opportunity with no limits to where hard work and talent will take your career. We believe in providing hone options for both talent seekers and hunters. Our signified solution uses the right proportion of technology, efforts, AI, and integrity in order to help you hunt the ideal candidate that would make a valuable contribution to your company.",
+        "buttonText": "Find Jobs",
+        "candidatesHired": "400K+",
+        "happyEmployers": "10K+"
+    },
+
+    "twoColumn": {
+        "mainTitle": "Our Simple process",
+        "mainDescription": "To find you a perfect candidate for your company and excel you way to moon!",
+
+        "title1": "Find more than 1000+ Job vacancies every day",
+        "title1Desc": "We’re real people with real jobs and real dreams, and we know you are too. Our team is made up of Financial Analysts, former Big4 CPAs, and MBAs. We’ve personally experienced the headache that is forecasting and the unique constraints of financial modeling. Portfolio & data management – we’ve been there.",
+        "title1Button": "Find Candidates",
+        "imgSrc1": "/images/pro1.jpg",
+
+        "title2": "Find more than 1000+ Job vacancies every day",
+        "title2Desc": "Industry experts that comprehend the distinction between pair and mob programming or the advantages of C++ over Java make up our team. We are closely monitoring the emergence of React Native and are aware of which talents are essential and which are \"nice to haves\" (and all its controversies).",
+        "title2Button": "Find Candidates",
+        "imgSrc2": "/images/pro2.jpg",
+
+        "title3": "Find more than 1000+ Job vacancies every day",
+        "title3Desc": "Our staff is made up of individuals from the business who are knowledgeable about cell manufacturing and molecular biology (right, maybe not the complexities, but we know a lot!). Even our team's leader is an MS Development Biology graduate.",
+        "title3Button": "Find Candidates",
+        "imgSrc3": "/images/pro3.jpg"
+    },
+    "jobCategories": [{
+        "mainTitle": "Job Categories",
+        "mainDescription": "Join the ProficientNow team, where expertise and innovation unite to shape the future",
+        "buttonText": "Hire Candidates"
+    }],
+
+    "recruiter": {
+        "title": "Recommended recruiter",
+        "description": "Dont have an internal hiring team? We ' ve got you covered!Our recommended recruiter feature suggests freelance recruiters you can book to help you find your dream candidate.",
+        "boxDescription": "The Stryve community of recruiters continues to grow; we won't stop until we have all specialisms covered."
+    },
+    "chatUs": {
+        "title": "Want to chat with us?",
+        "description": "At Proficient Now we are ready to help you take your business to the next level with our global talent solutions. Our company is great because of our people. We promise to work hard and care about your business and career more than anyone else.",
+        "buttonText": "Contact "
+    }
+}]
