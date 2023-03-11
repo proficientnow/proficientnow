@@ -99,13 +99,13 @@ const OurStory = () => {
             <br />{" "}
             <span style={{ fontWeight: "bold", color: "#E0E8F3" }}>T</span>{" "}
             &#45; Tutelage <br />
-            According to our founder, Omair Hasan Farooq, &quot;we bring you
-            talent like icing on the cake because I believe in the fight against
-            xenophobes and discriminatory employment procedures, and that&apos;s
-            when I decided to start this company.&quot; work on principles, with
-            five PILOT principles guiding the team Our dedication and commitment
-            to these principles has enabled us to achieve our objectives in a
-            more timely and straightforward manner.
+            According to our founder, Omair, &quot;we bring you talent like
+            icing on the cake because I believe in the fight against xenophobes
+            and discriminatory employment procedures, and that&apos;s when I
+            decided to start this company.&quot; work on principles, with five
+            PILOT principles guiding the team Our dedication and commitment to
+            these principles has enabled us to achieve our objectives in a more
+            timely and straightforward manner.
           </div>
           <Button
             mt={"3rem"}

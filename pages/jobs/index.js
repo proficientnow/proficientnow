@@ -63,9 +63,9 @@ const location = {
 
 const salary = {
   title: "Salary Range",
-  category1: "5-10 LPA",
-  category2: "10-15 LPA",
-  category3: "15-20 LPA",
+  category1: "5-10/annum",
+  category2: "10-15/annum",
+  category3: "15-20/annum",
 };
 
 export default function Jobs({ session }) {
@@ -315,7 +315,7 @@ export default function Jobs({ session }) {
           h={"190px"}
           alignItems={"center"}
           overflow={"hidden"}
-          zIndex={'100'}
+          zIndex={"100"}
         >
           <Flex
             w={{ md: "full", base: "90vw" }}
@@ -330,7 +330,7 @@ export default function Jobs({ session }) {
               md: "flex-start",
             }}
             gap={"2rem"}
-            zIndex={'100'}
+            zIndex={"100"}
             // maxW={"600px"}
 
             // justify={{ md: "space-between", base: "start" }}
@@ -357,13 +357,13 @@ export default function Jobs({ session }) {
               onChange={handleChange}
               placeholder="Job Categories"
               name="industry"
-              position={'relative'} zIndex='100'
-              
+              position={"relative"}
+              zIndex="100"
             >
               <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
                 Industry
               </MenuButton>
-              <MenuList >
+              <MenuList>
                 <MenuItem value={industry.category1}>
                   {industry.category1}
                 </MenuItem>
@@ -402,12 +402,12 @@ export default function Jobs({ session }) {
               onChange={handleChange}
               placeholder="Salary Range"
               name="salary"
-              zIndex='100'
+              zIndex="100"
             >
               <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
                 Salary
               </MenuButton>
-              <MenuList  >
+              <MenuList>
                 <MenuItem value={JSON.stringify({ min: 5, max: 10 })}>
                   {salary.category1}
                 </MenuItem>
@@ -443,67 +443,67 @@ export default function Jobs({ session }) {
             </Button>
           </Flex>
         </Flex>
-          <Grid
-            as={motion.div}
-            ref={ref}
-            animate={controls}
-            initial="hidden"
-            variants={visibleVariants}
-            backgroundColor={"#FBFBFB"}
-            w={"95%"}
-            maxW={"1500px"}
-            rowGap={"2rem"}
-            columnGap={"2rem"}
-            gridAutoFlow={{ sm: "row" }}
-            gridTemplateColumns={
-              layoutView == "grid"
-                ? { md: "repeat(2,1fr)", lg: "repeat(3,1fr)" }
-                : "repeat(1,1fr)"
-            }
-            gridTemplateRows={"repeat(3,1fr)"}
-            alignItems={"center"}
-            justifyContent={"center"}
-          >
-            {loading == true
-              ? [1, 2, 3, 4, 5, 6, 7, 8, 9].map((a) => {
-                  return (
-                    <Skeleton
-                      key={a}
-                      mx="auto"
-                      w={layoutView == "grid" ? "full" : "90vw"}
-                      maxW={layoutView == "grid" ? "600px" : "1500px"}
-                      height="17rem"
-                      rounded={"20px"}
-                      // shadow={"sm"}
-                      startColor="blackAlpha.100"
-                      endColor="blackAlpha.300"
-                      borderColor={"#ECEBF3"}
-                      // display={'flex'}
-                      // flexDir={''}
-                      borderWidth={"1px"}
-                      isLoaded={!loading}
-                      fadeDuration={a * a}
-                    />
-                  );
-                })
-              : jobData?.jobs?.map((job, index) => {
-                  return (
-                    <JobCard
-                      variant={layoutView}
-                      key={index}
-                      id={job._id}
-                      industry={job.industry}
-                      designation={job.designation}
-                      company={job.company}
-                      location={job.location?.city}
-                      salary={`${job.salary?.min} - ${job.salary?.max} LPA`}
-                      shift={job.shift}
-                      content={job.content}
-                      // doc={ job.createdAt }
-                    />
-                  );
-                })}
-          </Grid>
+        <Grid
+          as={motion.div}
+          ref={ref}
+          animate={controls}
+          initial="hidden"
+          variants={visibleVariants}
+          backgroundColor={"#FBFBFB"}
+          w={"95%"}
+          maxW={"1500px"}
+          rowGap={"2rem"}
+          columnGap={"2rem"}
+          gridAutoFlow={{ sm: "row" }}
+          gridTemplateColumns={
+            layoutView == "grid"
+              ? { md: "repeat(2,1fr)", lg: "repeat(3,1fr)" }
+              : "repeat(1,1fr)"
+          }
+          gridTemplateRows={"repeat(3,1fr)"}
+          alignItems={"center"}
+          justifyContent={"center"}
+        >
+          {loading == true
+            ? [1, 2, 3, 4, 5, 6, 7, 8, 9].map((a) => {
+                return (
+                  <Skeleton
+                    key={a}
+                    mx="auto"
+                    w={layoutView == "grid" ? "full" : "90vw"}
+                    maxW={layoutView == "grid" ? "600px" : "1500px"}
+                    height="17rem"
+                    rounded={"20px"}
+                    // shadow={"sm"}
+                    startColor="blackAlpha.100"
+                    endColor="blackAlpha.300"
+                    borderColor={"#ECEBF3"}
+                    // display={'flex'}
+                    // flexDir={''}
+                    borderWidth={"1px"}
+                    isLoaded={!loading}
+                    fadeDuration={a * a}
+                  />
+                );
+              })
+            : jobData?.jobs?.map((job, index) => {
+                return (
+                  <JobCard
+                    variant={layoutView}
+                    key={index}
+                    id={job._id}
+                    industry={job.industry}
+                    designation={job.designation}
+                    company={job.company}
+                    location={job.location?.city}
+                    salary={`${job.salary?.min} - ${job.salary?.max}/annum`}
+                    shift={job.shift}
+                    content={job.content}
+                    // doc={ job.createdAt }
+                  />
+                );
+              })}
+        </Grid>
         <PaginationJobCard jobData={jobData} setJobData={setJobData} />
       </Box>
     </MainLayout>

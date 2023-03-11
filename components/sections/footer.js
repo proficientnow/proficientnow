@@ -94,7 +94,7 @@ const Footer = () => {
       country: "India",
       branch: "Branch : ",
       address:
-        "ProficientNow Recruitment OPC Pvt. Ltd. 5th Floor, B Block, 8-2-120/113, Road no. 2 Banjara Hills Hyderabad Telangana India 500034",
+        "Sanali Info Park, 5th Floor, B Block, 8-2-120/113, Road no. 2 Banjara Hills Hyderabad Telangana India 500034",
       phone: "",
       email: "",
     },
