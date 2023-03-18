@@ -23,7 +23,7 @@ export default NextAuth({
 			clientSecret: process.env.GOOGLE_SECRET,
 		}),
 	],
-	// secret: "LlKq6ZtYbr+hTC073mAmAh9/h2HwMfsFo4hrfCx5mLg=",
+	secret: "LlKq6ZtYbr+hTC073mAmAh9/h2HwMfsFo4hrfCx5mLg=",
 	callbacks: {
 		async session({ session, user }) {
 			session.user._id = user.id
