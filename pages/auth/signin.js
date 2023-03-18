@@ -26,12 +26,12 @@ const Signin = () => {
   useEffect(() => {
     if (session) {
       console.log(session);
-      setUser({
-        user,
-        session: {
-          ...session,
-        },
-      });
+      // setUser({
+      //   user,
+      //   session: {
+      //     ...session,
+      //   },
+      // });
     }
   }, [session]);
 
@@ -73,10 +73,10 @@ const Signin = () => {
   }
 
   if (session) {
-    setTimeout(() => {
-      router.push(routeState);
-      // router.push('/')
-    }, 2000);
+    // setTimeout(() => {
+    //   router.push(routeState);
+    //   // router.push('/')
+    // }, 2000);
 
     return (
       <Box
@@ -169,7 +169,7 @@ const Signin = () => {
             </Text>
             <Button
               borderRadius={"1rem"}
-              onClick={handleOAuthSignIn("google")}
+              onClick={() => signIn("google")}
               my={"2.3rem"}
               h={"3.9rem"}
               w={"full"}
