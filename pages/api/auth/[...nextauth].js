@@ -21,6 +21,7 @@ export default NextAuth({
 		GoogleProvider({
 			clientId: process.env.GOOGLE_ID,
 			clientSecret: process.env.GOOGLE_SECRET,
+			redirectUri: 'https://proficientnow.com/api/auth/callback/google'
 		}),
 	],
 	secret: "LlKq6ZtYbr+hTC073mAmAh9/h2HwMfsFo4hrfCx5mLg=",
