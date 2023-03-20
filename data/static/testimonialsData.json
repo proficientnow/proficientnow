@@ -1,115 +1,275 @@
 [
-    {
-      "name": "Anna",
+    
+  {
+      "name": "John D",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Home Cleaning",
-      "description": "“Pema was excellent. 15 minutes early. friendly and completed a luxury hotel standard clean. Will book again”"
+      "variant": "Client",
+      "description": "Impressed by the caliber of candidates provided."
+    },{
+      "name": "Sarah M",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Candidate",
+      "description": "Responsive, efficient, and understanding of my career goals."
+    },{
+      "name": "Robert T",
+      "stars": 4,
+      "src": "/images/profile.webp",
+      "variant": "Candidate",
+      "description": "Helped me find the perfect job in no time."
     },
     {
-      "name": "Paula",
+      "name": "Lisa S",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Furniture Assemble",
-      "description": "“Michael was very nice and provided a very efficient service. Highly recommend”"
+      "variant": "Client",
+      "description": "Excellent communication and customer service."
     },
     {
-      "name": "Isma",
+      "name": "David K",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Home Cleaning",
-      "description": "“Edmee was great. She was punctual and did a very thorough job. She was also lovely. I was happy with the cleaning.”"
+      "variant": "Client",
+      "description": "Highly professional and dedicated team."
     },
     {
-      "name": "Lars",
-      "stars": 5,
+      "name": "Julia P",
+      "stars": 4,
       "src": "/images/profile.webp",
-      "variant": "Electrician",
-      "description": "“Far quick and experienced then I thought as per age. No fancy stuff just chipped in and know each detail whats doing. Have just Blind faith on him and he dont let you down.”"
+      "variant": "Candidate",
+      "description": "Efficient, reliable, and easy to work with."
     },
     {
-      "name": "Maria",
+      "name": "Michael R",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Home Cleaning",
-      "description": "“On time and accurama. Clean work. Rahul is cooperative and polite. Will be happy to have them again for next service.”"
+      "variant": "Client",
+      "description": "A pleasure to work with from start to finish."
     },
     {
-      "name": "Marta",
+      "name": "Amanda W",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Home Cleaning",
-      "description": "“Albert was very polite and willing to work. Very pleasant.”"
+      "variant": "Client",
+      "description": "Provided top-quality candidates that exceeded our expectations."
     },
     {
-      "name": "Gemma",
-      "stars": 5,
+      "name": "Chris L.",
+      "stars": 4,
       "src": "/images/profile.webp",
-      "variant": "Home Cleaning",
-      "description": "“Very professional and thorough! A great clean, thank you Stacey!”"
+      "variant": "Client",
+      "description": "Helpful, knowledgeable, and always available when we needed them."
     },
     {
-      "name": "Sara",
+      "name": " Michelle S",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Electrician",
-      "description": "“Very helpful”"
+      "variant": "Client",
+      "description": "Quickly understood our needs and found us the perfect candidate."
     },
     {
-      "name": "Peter",
+      "name": "James R",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Home Cleaning",
-      "description": "“Carla did a fantastic job cleaning our place and was very easy to communicate with”"
+      "variant": "Client",
+      "description": "Always goes above and beyond to ensure our satisfaction."
     },
     {
-      "name": "Natascha",
+      "name": "Jennifer H",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "End of Lease Cleaning",
-      "description": "“Rufa is as amazing as her reviews. Very thorough job, takes the time to get into the details. Will be booking again.”"
+      "variant": "Client",
+      "description": "A true partner in our hiring process."
     },
     {
-      "name": "Jamie",
-      "stars": 5,
+      "name": "Alex B",
+      "stars": 4,
       "src": "/images/profile.webp",
-      "variant": "Painting",
-      "description": "Fabiene did a fantastic job, the place was spotless."
+      "variant": "Client",
+      "description": "Efficient and effective in finding us the best talent."
     },
     {
-      "name": "Sanes",
+      "name": "Lauren W",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Home Cleaning",
-      "description": "“Thanks for a great job today Josiah!”"
+      "variant": "Candidate",
+      "description": "Provided a seamless and hassle-free hiring experience."
     },
     {
-      "name": "Lukas",
+      "name": "Rachel C.",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Home Cleaning",
-      "description": "“Hotel style cleaning. Beyond perfection. Will definitely hope he accepts future bookings.”"
+      "variant": "Client",
+      "description": "Incredibly knowledgeable and experienced in the recruitment industry."
     },
     {
-      "name": "Sanches",
+      "name": "Samantha K",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Home Cleaning",
-      "description": "“Aurora is amazing! We were very happy with the service. She was very considerate and thorough with the amount of time scheduled!”"
+      "variant": "Client",
+      "description": "Great attention to detail and always delivers quality results."
     },
     {
-      "name": "Andrew",
+      "name": "Peter G",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "End of Lease Cleaning",
-      "description": "“Excellent clean, thorough and friendly.”"
+      "variant": "Client",
+      "description": "Able to source candidates with hard-to-find skills."
     },
     {
-      "name": "Lukas",
+      "name": "Emily L",
+      "stars": 4,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Extremely responsive and attentive to our needs."
+    },
+    {
+      "name": "Jake F",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Painting",
-      "description": "“Great Work thank you Stuart!”"
+      "variant": "Client",
+      "description": "Impressed by their ability to find candidates that fit our unique company culture."
+    },
+    {
+      "name": "Michelle P",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Very professional and always met our deadlines."
+    },
+    {
+      "name": "Tom M",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Efficiently managed the entire recruitment process."
+    },
+    {
+      "name": "Sarah B.",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Candidate",
+      "description": "Helped me secure my dream job."
+    },
+    {
+      "name": "Amanda L.",
+      "stars": 4,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "A reliable partner in our recruitment efforts."
+    },
+    {
+      "name": "Michael S.",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Provided excellent guidance and support throughout the hiring process."
+    },
+    {
+      "name": "Lisa R",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Impressive track record of successful placements."
+    },
+    {
+      "name": "Jason K",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "A proactive approach to finding us the right candidates."
+    },
+    {
+      "name": "Alex C",
+      "stars": 4,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Great at identifying and presenting high-quality candidates."
+    },
+    {
+      "name": "Laura M",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "An invaluable resource in our recruitment strategy."
+    },
+    {
+      "name": "Matt G",
+      "stars": 4,
+      "src":"/images/profile.webp",
+      "variant": "Client",
+      "description": "Always puts the client's needs first."
+    },
+    {
+      "name": "David C",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Efficiently handled all the administrative tasks involved in the hiring process."
+    },
+    {
+      "name": "Rachel H",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Impressed by their knowledge of the industry and the latest hiring trends."
+    },
+    {
+      "name": "Peter L",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Made the hiring process simple and stress-free."
+    },
+    {
+      "name": "Michelle G",
+      "stars": 4,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Responsive, reliable, and results-oriented."
+    },
+    {
+      "name": " Sarah P",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Provided us with highly qualified and skilled candidates."
+    },
+    {
+      "name": "Alex R",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Great at identifying candidates with the right skills and experience."
+    },
+    {
+      "name": "Lisa T.",
+      "stars": 4,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "An excellent communicator who kept us informed throughout the process."
+    },
+    {
+      "name": "Matt H",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Able to find us candidates that matched our company values and culture."
+    },
+    {
+      "name": "David P",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Client",
+      "description": "Impressed by their attention to detail and thoroughness in the hiring process."
+    },
+    {
+      "name": "Rachel L",
+      "stars": 5,
+      "src": "/images/profile.webp",
+      "variant": "Candidate",
+      "description": "Helped me land a job that exceeded my expectations."
     }
   ]
   

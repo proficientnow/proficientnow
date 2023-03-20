@@ -44,7 +44,7 @@ const Testimonial = ({
           fontSize={{
             base: "12px",
             md: "12px",
-            lg: "0.7rem",
+            lg: "0.82rem",
           }}
           fontWeight={"regular"}
           lineHeight={{ base: "170%", lg: "202%" }}
