@@ -54,16 +54,10 @@ const RequestCall = ({ title, description }) => {
       email: e.target.value,
     });
   };
-  const onCompanyChange = (e) => {
-    setContactForm({
-      ...contactForm,
-      companyName: e.target.value,
-    });
-  };
   const onNumberChange = (e) => {
     setContactForm({
       ...contactForm,
-      mobile: e.target.value,
+      mobile: e.target?.value,
     });
   };
   const errorMsg = () => {
@@ -73,7 +67,6 @@ const RequestCall = ({ title, description }) => {
     {
       contactForm.name === "" ||
       contactForm.email === "" ||
-      contactForm.companyName === "" ||
       contactForm.mobile === ""
         ? toast({
             title: "Error!",
@@ -255,11 +248,6 @@ const RequestCall = ({ title, description }) => {
                 >
                   Phone
                 </FormLabel>
-                {/* <InputGroup> */}
-                {/* <InputLeftAddon fontSize={"0.8rem"} p={0} h={"3.25rem"}> */}
-                {/* <Select fontWeight={"500"} border={0}>
-                      <option>IN +91</option>
-                    </Select> */}
 
                 <PhoneInput
                   inputStyle={{
@@ -278,32 +266,7 @@ const RequestCall = ({ title, description }) => {
                   onChange={onNumberChange}
                   value={contactForm.mobile}
                 />
-                {/* </InputLeftAddon> */}
-                {/* <Input
-                    alignSelf={"end"}
-                    heading={"Phone"}
-                    h={"3.25rem"}
-                    placeHolder={"Enter your phone number"}
-                    _placeholder={{
-                      fontSize: "0.7rem",
-                    }}
-                    type={"tel"}
-                    borderRadius={"10px"}
-                    border={"1px solid #DCE1EF"}
-                    bgColor={"#F8F9FC"}
-                  /> */}
-                {/* </InputGroup> */}
               </Box>
-              {/* <FormText
-                heading={"Email"}
-                placeHolder={" Enter your email"}
-                type={"textField"}
-              />{" "}
-              <FormText
-                heading={"Phone number"}
-                placeHolder={"Enter your phone number"}
-                type={"number"}
-              />{" "} */}
             </Box>{" "}
             <Box
               w={"full"}

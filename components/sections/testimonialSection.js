@@ -7,6 +7,7 @@ import { Box, Center, Stack, Text } from "@chakra-ui/react";
 import dynamic, { noSSR } from "next/dynamic";
 
 import cardData from "../../data/static/testimonialsData.json";
+import cardData2 from "../../data/static/testimonialData2.json";
 import Marquee from "react-fast-marquee";
 
 const Testimonial = dynamic(() => import("../cards/testimonials"), {
@@ -16,7 +17,7 @@ const Testimonial = dynamic(() => import("../cards/testimonials"), {
 
 export const TestimonialSection = () => {
   const [testimonialsList, setTestimonialsList] = useState([...cardData]);
-  const randomIndex = Math.floor(Math.random() * testimonialsList.length);
+  const [testimonialsList2, setTestimonialsList2] = useState([...cardData2]);
   return (
     <Center py={"5rem"} w={"full"} display={"flex"}>
       <Box
@@ -49,34 +50,18 @@ export const TestimonialSection = () => {
             </Text>
           </Box>
           <Marquee loop={0} gradient={false} speed={4.25} pauseOnHover={true}>
-            {testimonialsList.map((elem, idx) => {
-              if (idx === randomIndex) {
-                return (
-                  <Box key={idx} mx="1rem">
-                    <Testimonial
-                      name={elem.name}
-                      stars={elem.stars}
-                      idx={idx}
-                      listLength={testimonialsList.length}
-                      category={elem.variant}
-                      description={elem.description}
-                    />
-                  </Box>
-                );
-              }
-              return (
-                <Box key={idx} mx="1rem">
-                  <Testimonial
-                    name={elem.name}
-                    stars={elem.stars}
-                    idx={idx}
-                    listLength={testimonialsList.length}
-                    category={elem.variant}
-                    description={elem.description}
-                  />
-                </Box>
-              );
-            })}
+            {testimonialsList.map((elem, idx) => (
+              <Box key={idx} mx="1rem">
+                <Testimonial
+                  name={elem.name}
+                  stars={elem.stars}
+                  idx={idx}
+                  listLength={testimonialsList.length}
+                  category={elem.variant}
+                  description={elem.description}
+                />
+              </Box>
+            ))}
           </Marquee>
           <Marquee
             loop={0}
@@ -85,13 +70,13 @@ export const TestimonialSection = () => {
             speed={4}
             pauseOnHover={true}
           >
-            {testimonialsList.map((elem, idx) => (
+            {testimonialsList2.map((elem, idx) => (
               <Box key={idx} mx="1rem">
                 <Testimonial
                   name={elem.name}
                   stars={elem.stars}
                   idx={idx}
-                  listLength={testimonialsList.length}
+                  listLength={testimonialsList2.length}
                   category={elem.variant}
                   description={elem.description}
                 />
