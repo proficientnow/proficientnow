@@ -33,11 +33,12 @@ const RequestCall = ({ title, description }) => {
   const [contactForm, setContactForm] = useState({
     name: "",
     email: "",
-    companyName: "",
+    // companyName: "",
     mobile: "",
     attendedTo: false,
   });
 
+  console.log(contactForm);
   const [submit, setSubmit] = useState(false);
 
   const onNameChange = (e) => {
@@ -63,6 +64,7 @@ const RequestCall = ({ title, description }) => {
   const errorMsg = () => {
     alert("Enter all fields");
   };
+
   const onSubmit = async () => {
     {
       contactForm.name === "" ||
@@ -89,7 +91,7 @@ const RequestCall = ({ title, description }) => {
             setContactForm({
               name: "",
               email: "",
-              companyName: "",
+              // companyName: "",
               mobile: "",
             });
           });
@@ -248,8 +250,25 @@ const RequestCall = ({ title, description }) => {
                 >
                   Phone
                 </FormLabel>
+                <Input
+                  style={{
+                    width: "100%",
+                    fontSize: "0.8rem",
+                    backgroundColor: "#F8F9Fc",
+                    height: "3.25rem",
+                    alignSelf: "end",
+                    border: "1px solid #DCE1EF",
+                    borderRadius: "10px",
+                  }}
+                  _placeholder={{
+                    fontSize: "0.7rem",
+                  }}
+                  placeholder={"Enter your phone number"}
+                  onChange={onNumberChange}
+                  value={contactForm.mobile}
+                />
 
-                <PhoneInput
+                {/* <PhoneInput
                   inputStyle={{
                     width: "100%",
                     fontSize: "0.8rem",
@@ -263,9 +282,9 @@ const RequestCall = ({ title, description }) => {
                   enableAreaCodes={false}
                   enableSearch={true}
                   disabled={false}
-                  onChange={onNumberChange}
+                  // onChange={onNumberChange}
                   value={contactForm.mobile}
-                />
+                /> */}
               </Box>
             </Box>{" "}
             <Box
