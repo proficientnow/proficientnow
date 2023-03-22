@@ -7,6 +7,7 @@ import { Box, Center, Stack, Text } from "@chakra-ui/react";
 import dynamic, { noSSR } from "next/dynamic";
 
 import cardData from "../../data/static/testimonialsData.json";
+import cardData2 from "../../data/static/testimonialData2.json";
 import Marquee from "react-fast-marquee";
 
 const Testimonial = dynamic(() => import("../cards/testimonials"), {
@@ -16,6 +17,7 @@ const Testimonial = dynamic(() => import("../cards/testimonials"), {
 
 export const TestimonialSection = () => {
   const [testimonialsList, setTestimonialsList] = useState([...cardData]);
+  const [testimonialsList2, setTestimonialsList2] = useState([...cardData2]);
   return (
     <Center py={"5rem"} w={"full"} display={"flex"}>
       <Box
@@ -44,10 +46,10 @@ export const TestimonialSection = () => {
               color={"black"}
               pb={{ base: "18px", md: "2", xl: "5" }}
             >
-              <>Professionals Trust Us</>
+              Professionals Trust Us
             </Text>
           </Box>
-          <Marquee loop={0} gradient={false} speed={4} pauseOnHover={true}>
+          <Marquee loop={0} gradient={false} speed={4.25} pauseOnHover={true}>
             {testimonialsList.map((elem, idx) => (
               <Box key={idx} mx="1rem">
                 <Testimonial
@@ -68,13 +70,13 @@ export const TestimonialSection = () => {
             speed={4}
             pauseOnHover={true}
           >
-            {testimonialsList.map((elem, idx) => (
+            {testimonialsList2.map((elem, idx) => (
               <Box key={idx} mx="1rem">
                 <Testimonial
                   name={elem.name}
                   stars={elem.stars}
                   idx={idx}
-                  listLength={testimonialsList.length}
+                  listLength={testimonialsList2.length}
                   category={elem.variant}
                   description={elem.description}
                 />

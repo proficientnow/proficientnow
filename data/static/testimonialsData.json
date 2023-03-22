@@ -4,272 +4,113 @@
       "name": "John D",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Impressed by the caliber of candidates provided."
-    },{
-      "name": "Sarah M",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Candidate",
-      "description": "Responsive, efficient, and understanding of my career goals."
-    },{
-      "name": "Robert T",
-      "stars": 4,
-      "src": "/images/profile.webp",
-      "variant": "Candidate",
-      "description": "Helped me find the perfect job in no time."
+      "variant": "Home Cleaning",
+      "description": "“Working with Proficient Now has been an absolute pleasure. Their team is knowledgeable, responsive, and efficient. They helped us achieve our goals and exceeded our expectations.”"
     },
     {
       "name": "Lisa S",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Excellent communication and customer service."
+      "variant": "Furniture Assemble",
+      "description": "“Proficient Now is the go-to company for all of our hiring needs. They provide excellent service and have a deep understanding of our industry. We highly recommend them.”"
     },
     {
       "name": "David K",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Highly professional and dedicated team."
+      "variant": "Home Cleaning",
+      "description": "“Thanks to Proficient Now, we were able to fill a critical role in our organization quickly and efficiently. Their team took the time to understand our needs and provided us with top-notch candidates.”"
     },
     {
       "name": "Julia P",
       "stars": 4,
       "src": "/images/profile.webp",
-      "variant": "Candidate",
-      "description": "Efficient, reliable, and easy to work with."
+      "variant": "Electrician",
+      "description": "“We've been using Proficient Now for several years now and have never been disappointed. They are true professionals who care about their clients and are always looking for ways to improve their services.”"
     },
     {
       "name": "Michael R",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "A pleasure to work with from start to finish."
+      "variant": "Home Cleaning",
+      "description": "“Proficient Now is a game-changer. They helped us streamline our hiring process and find the right candidates for our organization. We couldn't be happier with the results.”"
     },
     {
       "name": "Amanda W",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Provided top-quality candidates that exceeded our expectations."
+      "variant": "Home Cleaning",
+      "description": "“I've worked with several hiring companies in the past, but none of them compare to Proficient Now. Their team is dedicated, knowledgeable, and always goes above and beyond to meet our needs”"
     },
     {
       "name": "Chris L.",
       "stars": 4,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Helpful, knowledgeable, and always available when we needed them."
+      "variant": "Home Cleaning",
+      "description": "“Proficient Now has been an invaluable partner for our business. Their services have helped us save time, money, and resources. We highly recommend them to anyone looking for top-notch hiring solutions.”"
     },
     {
       "name": " Michelle S",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Quickly understood our needs and found us the perfect candidate."
+      "variant": "Electrician",
+      "description": "“I can't say enough good things about Proficient Now. They are the epitome of professionalism and have a deep understanding of our industry. They've helped us find some of our best employees.”"
     },
     {
       "name": "James R",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Always goes above and beyond to ensure our satisfaction."
+      "variant": "Home Cleaning",
+      "description": "“Working with Proficient Now was a seamless experience. They took the time to understand our needs and provided us with top-quality candidates. We will definitely be using them again.”"
     },
     {
       "name": "Jennifer H",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "A true partner in our hiring process."
+      "variant": "End of Lease Cleaning",
+      "description": "“Proficient Now has been a key player in our hiring strategy. They have provided us with excellent service and have helped us find the right people for our organization.”"
     },
     {
       "name": "Alex B",
       "stars": 4,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Efficient and effective in finding us the best talent."
+      "variant": "Painting",
+      "description": "“Thanks to Proficient Now, we were able to quickly and easily fill a critical role in our organization. Their team is responsive, knowledgeable, and always puts their clients first.”"
     },
     {
       "name": "Lauren W",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Candidate",
-      "description": "Provided a seamless and hassle-free hiring experience."
+      "variant": "Home Cleaning",
+      "description": "“Proficient Now is the best hiring company out there. They are true experts in their field and have helped us find some of the most talented employees we've ever had.”"
     },
     {
-      "name": "Rachel C.",
+      "name": "Hazen",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Incredibly knowledgeable and experienced in the recruitment industry."
+      "variant": "Home Cleaning",
+      "description": "“We've been using Proficient Now for years and they never disappoint. Their team is always on top of things and provides us with top-quality candidates that fit our needs perfectly.”"
     },
     {
       "name": "Samantha K",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Great attention to detail and always delivers quality results."
+      "variant": "Home Cleaning",
+      "description": "“Proficient Now is an invaluable asset to our organization. They have helped us save time and money while finding the right people for our team. We couldn't be happier with their services.”"
     },
     {
       "name": "Peter G",
       "stars": 5,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Able to source candidates with hard-to-find skills."
+      "variant": "End of Lease Cleaning",
+      "description": "“Working with Proficient Now has been a game-changer for our business. Their team is dedicated, knowledgeable, and always puts their clients first. We highly recommend them.”"
     },
     {
-      "name": "Emily L",
+      "name": "Lukas",
       "stars": 4,
       "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Extremely responsive and attentive to our needs."
-    },
-    {
-      "name": "Jake F",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Impressed by their ability to find candidates that fit our unique company culture."
-    },
-    {
-      "name": "Michelle P",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Very professional and always met our deadlines."
-    },
-    {
-      "name": "Tom M",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Efficiently managed the entire recruitment process."
-    },
-    {
-      "name": "Sarah B.",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Candidate",
-      "description": "Helped me secure my dream job."
-    },
-    {
-      "name": "Amanda L.",
-      "stars": 4,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "A reliable partner in our recruitment efforts."
-    },
-    {
-      "name": "Michael S.",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Provided excellent guidance and support throughout the hiring process."
-    },
-    {
-      "name": "Lisa R",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Impressive track record of successful placements."
-    },
-    {
-      "name": "Jason K",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "A proactive approach to finding us the right candidates."
-    },
-    {
-      "name": "Alex C",
-      "stars": 4,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Great at identifying and presenting high-quality candidates."
-    },
-    {
-      "name": "Laura M",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "An invaluable resource in our recruitment strategy."
-    },
-    {
-      "name": "Matt G",
-      "stars": 4,
-      "src":"/images/profile.webp",
-      "variant": "Client",
-      "description": "Always puts the client's needs first."
-    },
-    {
-      "name": "David C",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Efficiently handled all the administrative tasks involved in the hiring process."
-    },
-    {
-      "name": "Rachel H",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Impressed by their knowledge of the industry and the latest hiring trends."
-    },
-    {
-      "name": "Peter L",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Made the hiring process simple and stress-free."
-    },
-    {
-      "name": "Michelle G",
-      "stars": 4,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Responsive, reliable, and results-oriented."
-    },
-    {
-      "name": " Sarah P",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Provided us with highly qualified and skilled candidates."
-    },
-    {
-      "name": "Alex R",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Great at identifying candidates with the right skills and experience."
-    },
-    {
-      "name": "Lisa T.",
-      "stars": 4,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "An excellent communicator who kept us informed throughout the process."
-    },
-    {
-      "name": "Matt H",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Able to find us candidates that matched our company values and culture."
-    },
-    {
-      "name": "David P",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Client",
-      "description": "Impressed by their attention to detail and thoroughness in the hiring process."
-    },
-    {
-      "name": "Rachel L",
-      "stars": 5,
-      "src": "/images/profile.webp",
-      "variant": "Candidate",
-      "description": "Helped me land a job that exceeded my expectations."
+      "variant": "Painting",
+      "description": "“Proficient Now has exceeded our expectations time and time again. Their team is responsive, professional, and always goes the extra mile to ensure our needs are met.”"
     }
   ]
   
