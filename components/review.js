@@ -48,7 +48,7 @@ const Reviewer = ({ name, stars, category }) => {
         </Stack>
         <Box display={"flex"} flexDir={"row"} gap={"0"} alignItems={"end"}>
           <Text
-            fontFamily={"silka"}
+            // fontFamily={"silka"}
             fontWeight={"medium"}
             fontSize={{ lg: "14px", sm: "14px" }}
             color={"black"}

@@ -40,7 +40,7 @@ const Testimonial = ({
       >
         <Reviewer name={name} stars={stars} category={category} />
         <Text
-          fontFamily={"silka"}
+          // fontFamily={"silka"}
           fontSize={{
             base: "12px",
             md: "12px",

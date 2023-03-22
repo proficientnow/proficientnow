@@ -16,6 +16,7 @@ const Testimonial = dynamic(() => import("../cards/testimonials"), {
 
 export const TestimonialSection = () => {
   const [testimonialsList, setTestimonialsList] = useState([...cardData]);
+  const randomIndex = Math.floor(Math.random() * testimonialsList.length);
   return (
     <Center py={"5rem"} w={"full"} display={"flex"}>
       <Box
@@ -44,22 +45,38 @@ export const TestimonialSection = () => {
               color={"black"}
               pb={{ base: "18px", md: "2", xl: "5" }}
             >
-              <>Professionals Trust Us</>
+              Professionals Trust Us
             </Text>
           </Box>
-          <Marquee loop={0} gradient={false} speed={4} pauseOnHover={true}>
-            {testimonialsList.map((elem, idx) => (
-              <Box key={idx} mx="1rem">
-                <Testimonial
-                  name={elem.name}
-                  stars={elem.stars}
-                  idx={idx}
-                  listLength={testimonialsList.length}
-                  category={elem.variant}
-                  description={elem.description}
-                />
-              </Box>
-            ))}
+          <Marquee loop={0} gradient={false} speed={4.25} pauseOnHover={true}>
+            {testimonialsList.map((elem, idx) => {
+              if (idx === randomIndex) {
+                return (
+                  <Box key={idx} mx="1rem">
+                    <Testimonial
+                      name={elem.name}
+                      stars={elem.stars}
+                      idx={idx}
+                      listLength={testimonialsList.length}
+                      category={elem.variant}
+                      description={elem.description}
+                    />
+                  </Box>
+                );
+              }
+              return (
+                <Box key={idx} mx="1rem">
+                  <Testimonial
+                    name={elem.name}
+                    stars={elem.stars}
+                    idx={idx}
+                    listLength={testimonialsList.length}
+                    category={elem.variant}
+                    description={elem.description}
+                  />
+                </Box>
+              );
+            })}
           </Marquee>
           <Marquee
             loop={0}

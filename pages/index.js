@@ -17,8 +17,6 @@ import Jobcategories from "../components/jobcategories";
 import Recuriter from "../components/recuriter";
 import ChatUs from "../components/chatUs";
 
-// icons
-
 // import Gps from "../components/icons/gps.svg";
 import axios from "axios";
 
